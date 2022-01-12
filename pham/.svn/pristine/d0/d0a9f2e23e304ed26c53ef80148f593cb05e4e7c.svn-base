@@ -1,0 +1,18 @@
+
+getDivsors tests
+    ✔ correct gets the divisors for 6
+    ✔ correct gets the divisors for 10
+    ✔ correct gets the divisors for 12
+    ✔ correct gets the divisors for 20
+    
+sumDivsors
+    ✔ correctly sums up 1,2,3
+    ✔ correctly sums up 1,2,5
+    ✔ correctly sums up 1,2,3,4,6
+    ✔ correctly sums up 1,2,4,5,10
+
+checkForPerfect
+    ✔ correct checks 6
+    ✔ correct checks 10
+    ✔ correct checks 12
+    ✔ correct checks 20
