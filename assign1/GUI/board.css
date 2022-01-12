@@ -1,0 +1,118 @@
+.center{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.RED {
+    height: 35px;
+    width: 35px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.BLUE {
+    height: 35px;
+    width: 35px;
+    background-color:blue;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.GREEN {
+    height: 35px;
+    width: 35px;
+    background-color:green;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ORANGE {
+    height: 35px;
+    width: 35px;
+    background-color:orange;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.YELLOW {
+    height: 35px;
+    width: 35px;
+    background-color:yellow;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.VIOLET {
+    height: 35px;
+    width: 35px;
+    background-color:violet;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.MAROON {
+    height: 35px;
+    width: 35px;
+    background-color:maroon;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.LIME {
+    height: 35px;
+    width: 35px;
+    background-color:lime;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.AQUA {
+    height: 35px;
+    width: 35px;
+    background-color:aqua;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.SALMON {
+    height: 35px;
+    width: 35px;
+    background-color:salmon;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+.BLACK {
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.SILVER {
+    height: 15px;
+    width: 15px;
+    background-color:silver;
+    border-radius: 50%;
+    display: inline-block;
+}

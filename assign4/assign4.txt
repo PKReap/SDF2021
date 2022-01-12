@@ -1,0 +1,79 @@
+Assign 4: Due 11:59PM November 12
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+You're asked to create a GUI application that will help design a bicycle 
+wheel. Your application will allow the user to start with a preset wheel,
+of some size, with a select number of spokes. The user can add and remove 
+spokes and change various properties. There are some restrictions:
+
+1. At least eight spokes are required.
+2. Spokes have to be spread out evenly.
+3. If the hub size is changed, the spokes size changes accordingly.
+4. If the wheel size is changed, the spokes size changes accordingly.
+5. Diameter of the hub can't be bigger than one forth the wheel's diameter.
+
+The program will save the design in a file and can reopen it at a later time.
+
+After you complete the code, answer the following questions:
+
+What design principles did you use in the program?
+
+We use SLAP in our program, as we created different classes that dealt with each section of the wheel. The wheel only had methods that changes the wheel properties,
+the hub only had a function that changed the hub properties and the spokes only contained
+information about itself. 
+
+When the hub changed instead of changing the spokes in the hub class
+we passed the responsibility to the WheelRules class which handles the exceptions thus also following SRP. Each class was responsible for its own respective component of the wheel.
+This allowed our code to be cohesive and more maintainable.
+
+We used DIP in our program. In our for our wheel to work, we had the wheel depend on an interface class wheelRules which was responsible for checking the wheel's method.
+The WheelRules class allows us to easily switch between implementations of the wheel.
+The Wheel and Hub depended on the WheelRules interface for their implementations, the details
+of these concrete class depends on the abstract interface which allows us to vary our implementations.
+
+Following the above principles allowed us to follow OCP allowing us to add new methods 
+to our program without having to change our existing code base when we created the methods.
+
+
+
+
+What design patterns did you use in the program?
+
+We used the compose method pattern in our program. In our setters, we gave the responsibility of checking if the change followed the restrictions set on the component to the WheelRules method, and the setting
+of the component was handled by the class method itself. Another example of this was the notifyHubDiameterChanged
+which the setHubDiameter method called to handle the changing of the spokes. If the specs of changing the Hub Diameter were to ever change we would only have to change the implementation of the notifyHubDiameterChanged method.
+This pattern gave us the flexibility to vary the implementation and allowed us to follow OCP and SRP. 
+
+We used the builder creation pattern to load our wheel in our loadWheel function. The load wheel builds the wheel to be rendered by following a standardized sequence of steps. All wheels have a diameter, a hub diameter, and a number of spokes. 
+It takes in the name of the wheel, the specs of the wheel, and a WheelRules our builder. The WheelRules follows the specs given and builds the Wheel to be rendered. The setDiameter and setHubDiameter must be 
+set before the spokes are set thus preserving the steps to create the wheel.
+
+We used the Abstract Factory pattern. We have an abstract WheelRules Interface which was in charge of the creation of the wheel.
+Each wheel has a specific rule for setting the size of the spokes when the hub changes. When the wheel is created the notifyHubDiameterChanged method
+is set to the wheel setSpokeSize method. This inverted the dependencies such that the setHubDiameter no longer needed to depend on a concrete class wheel in order to change the size of the spokes. This pattern also allowed us to vary the implementation of the wheel class allowing a wheel to be created using the WheelRules.createWheel() method thus varying the implementation of the wheel. 
+as long as the wheel is capable of all the functions such as setDiameter, addSpokes, and removeSpokes changes can be made to
+the implementation of a new wheel class.
+
+
+
+
+Please bring forward the practices, techniques, and tools you have learned so far. This includes: 
+Good code quality
+Lightweight design
+Minimum code
+Automated testing                                                         
+Code coverage
+Build files (I created them for you in assign1, but it's your turn now to practice and learn further)
+Change build.sh in your repository to point to assign2 instead of assign1
+
+Total [100]: 98
+Program runs and produces the expected results [20]:
+All tests pass [20]:
+Test quality [10]:
+Code coverage [10]:
+Design quality [20]:
+Code quality [10]:
+Response to questions [10]: -2
+More patterns

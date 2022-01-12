@@ -1,0 +1,59 @@
+Assign1: Due 11:59PM October 1
+
+***Please review the top part of ../hw1/hw1.txt***
+***Your chance of success greatly increases if you start very early. Your chance of failure increases if you start late. Please use as many reviews as you possibly can.***
+
+Using Test First Development (no code without test first) let's implement the problem designed in hw2. Feel free to evolve that design and use judgment to make changes based on the improved understanding and learning. You are not required to use any of the design idea or languages you mentioned in hw2, apply decisions based on your renewed learnings.
+
+Please take small steps and ask for frequent reviews.
+
+First start with a tests list (tests.txt) and a canary test. Implement at most two more tests and minimum code to make those tests to pass. This is a great first step to complete and ask for a review.
+
+After completing the assignment (and only after) let's answer the following questions:
+
+1. What did you learn mainly in this assignment?
+
+We learned about writing unit testing and how it can help verify our code, as well as learning how to use a unit testing library karma.
+We also learned how about code maintainability, in terms of how to write code that is not complex and recyclable(eco-friendly lol).
+For example, while writing the unit test, we learned that instead of storing all the guesses we instead stored the state of the game at how many guesses and if they've won or not. This allowed for much cleaner code as we decouple the game logic from the board UI.
+For JavaScript, we learned a lot of different methods and functionalities such as map reduced filter, lambda functions, and alert for pop-ups.
+Although we never used it in our last refactor, we think this would be very useful to use in other projects and languages in the future.
+Also, we learned about how to navigate HTML elements with JavaScript's document class. 
+Finally, Sevilay taught Thien how to use Prettifier and Thien taught Sevilay spread methods in JavaScript.
+
+
+2. How is the current design different, if at all, from the strategic design created in hw2?
+
+In this assignment instead of using a class for the board, we created functions to achieve UI capabilities.
+The MasterMind class is much more simplified than the design, only needing a guess method. 
+MasterMind doesn't have a board inside of it but instead is used in board UI functions.
+MasterMind holds an object that contains the conditions of the game.
+The board UI doesn't have a reset button, since it was an HTML page we could just refresh the page to reset the game.
+The user doesn't drag the colors to the CurrentGuess div but instead clicks on a number of colors and it appears in the CurrentGuess div.
+Finally, we haven't used any event listeners as we planned on the design for the UI.
+
+
+
+3. Were there any surprises or things you did not expect along the way? Any particular problem faced, things you had to tackle that you did not expect 
+beforehand?
+
+Using vanilla JavaScript and how to import classes was different than what we were used to. 
+We did not expect to re-write the code so many times, after re-writing and re-factoring we found the code much more readable and maintainable.
+We did not expect the JavaScript required the code to be so strict with indentations, semicolons, and typing, this was a bit frustrating sometimes as a single missing colon would crash the server Jenkins build. We later learned to use formating libraries to automate the coding process to prevent this.
+We were surprised by how straightforward the unit tests became after we learned to write more. The more we refactored the cleaner and the easier it was to add tests. 
+At first we the guess function returned an array of colors but after your suggestion on returning an object creating new test cases became so much easier.
+This in turn lead us to use the same approach when it came to storing the game conditions, instead of storing the guesses in an array we stored the states in an object. 
+This not only made testing for the MasterMind easier but as well as testing the board UI functions. We simply just needed to change the gameConditions object to a certain state
+for us to test our code such as checking if the revealColors worked when enough guesses were made.
+
+
+Total [100]: 100
+Program runs [10]:
+Game works as expected [10]:
+All tests pass [20]:
+Test quality [15]:
+Test for randomness [5]:
+Code coverage [10]:
+Code quality [10]:
+Design quality [10]:
+Response to questions [10]:

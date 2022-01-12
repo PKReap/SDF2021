@@ -1,0 +1,222 @@
+[Reviewed 10/14/21 11:47 AM MDT]
+synopsis: how to run the program?
+
+details: 
+
+Please see suggestions in code.
+
+Did not find a task in package.json to run the program. Something like
+
+npm run start
+
+to see the program output without any further input is expected.
+
+------------------------------------------------------------------------------
+[Reviewed 10/13/21 11:10 AM MDT]
+synopsis: no hard coding, please
+
+details: 
+
+Please see suggestions in code.
+
+Let's write a driver program that reads a file and displays the analysis for the contents of the file. Let's exclude that driver program from the code coverage. Let us also provide a run task that when called on the build will run the program. Let us *not* include this run task in the CI default run.
+
+------------------------------------------------------------------------------
+[Reviewed 10/12/21 18:17 PM MDT]
+synopsis: let's revisit the tests
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/12/21 12:58 PM MDT]
+synopsis~: let's rethink
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/12/21 12:11 PM MDT]
+synopsis~: let's honor SRP
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/11/21 09:54 AM MDT]
+synopsis~: No need to deviate from what we had before
+
+details: 
+We write code, get it to a shape, and build on it. Now, all of a sudden
+the code we completed has been changed extensively. No need to do that.
+If Plato complains, don't change design drastically. Instead ask for help.
+
+------------------------------------------------------------------------------
+[Reviewed 10/11/21 05:37 AM MDT]
+synopsis~: YAGNI
+
+details: 
+
+Please see suggestions in code.
+
+We want to see the tests before the //Feedback on tests.txt at this time.
+Let's review the changes for that and then move forward.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/10/21 15:55 PM MDT]
+synopsis: let's refactor and move forward
+
+details: 
+
+Please see suggestions in code.
+
+Let's look at the next set of tests:
+-service returns some response for call
+-parse true response
+-parse false response
+-is_spelling_correct calls service and parse
+-is_spelling_correct passes through the failure from service call
+
+------------------------------------------------------------------------------
+[Reviewed 10/10/21 07:23 AM MDT]
+synopsis~: let's revisit some tests
+
+details: 
+
+Let's revisit some tests.
+
+We should not count in the number of types the words for which we could not get the true or false for spelling check.
+
+Also, we need
+Total words: 5
+Typos: 2
+Errors: 40%
+
+We don't need to return list of correct words and list of error words separately.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/09/21 04:28 AM MDT]
+synopsis: a few things to improve
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/08/21 09:06 AM MDT]
+synopsis: let's rework a bit and move forward
+
+details: 
+
+Please see suggestions in code.
+
+A few more tests to consider:
+
+-analyze takes an empty sentence
+-analyze takes a correct word "hello" but runs into a network error
+-analyze takes a correct word "hello" but runs into a service failure error
+-analyze takes a correct word "hello there" but runs into a network failure error only for the word there
+
+------------------------------------------------------------------------------
+[Reviewed 10/07/21 21:56 PM MDT]
+synopsis: let's revisit tests
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/06/21 18:39 PM MDT]
+synopsis: let's see if we really need a class
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/05/21 17:48 PM MDT]
+synopsis: please don't leave comments in code
+
+details: 
+
+Please don't leave comments in code. Got a question? Drop an email.
+
+------------------------------------------------------------------------------
+[Reviewed 10/04/21 12:51 PM MDT]
+synopsis~: tests should tell us the full story
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/04/21 10:33 AM MDT]
+synopsis~: we need to address the tests clarity first
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/03/21 06:41 AM MDT]
+synopsis~: let's not hard code
+
+details: 
+
+Tests should provide enough details to know why a code is behaving the way it is expected to behave.
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/02/21 16:57 PM MDT]
+synopsis: let's refactor
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/02/21 07:49 AM MDT]
+synopsis~: let's remove unnecessary files and change directions
+
+details: 
+
+Let's remove unnecessary files like karma.conf.js
+
+Let's take small steps. The give problem says we will talk to a service, but in the future we may use a different service. Thus, we should postpone bringin in the service so we can make the code extensible.
+
+Let's delete and start over with a different focus. Please see tests.txt.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/02/21 06:55 AM MDT]
+synopsis~: this does not have to be a web application
+
+details: 
+
+This does not have to be a web application. In fact, it is better not to
+as we will run into issues with cross site scripting and will have to write a server side and a client side, which is really not necessary.
+
+Let us change directions. Let's start with a node application. For this we don't need karma.conf.js. Instead, we can write a direct test using mocha and chai. Please give that a try and if you need help after a bit of effort, let me know and I can set up the files to get us moving forward.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------

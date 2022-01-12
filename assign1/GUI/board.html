@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Mind Game</title>
+    <link rel="stylesheet" href="board.css">
+</head>
+
+<body>
+    <h2 align = 'center'>Select Colors</h2>
+    <div  id= 'MasterMindGame' class= 'header' align = 'center'>
+        <li class="RED" onclick='dotClick("RED")'></li>
+        <li class="BLUE" onclick='dotClick("BLUE")'></li>
+        <li class="GREEN" onclick='dotClick("GREEN")'></li>
+        <li class="ORANGE" onclick='dotClick("ORANGE")'></li>
+        <li class="YELLOW" onclick='dotClick("YELLOW")'></li>
+        <li class="VIOLET" onclick='dotClick("VIOLET")'></li>
+        <li class="MAROON" onclick='dotClick("MAROON")'></li>
+        <li class="LIME" onclick='dotClick("LIME")'></li>
+        <li class="AQUA" onclick='dotClick("AQUA")'></li>
+        <li class="SALMON" onclick='dotClick("SALMON")'></li>
+    </div>
+    
+    <h2 align = 'center'>Current Guess 
+     <button onclick="guessSubmission()" align = 'center'>Submit</button>
+     </h2>
+   
+    <div id='CurrentGuess' align = 'center'> </div>
+    
+    <h2 align = 'center'>Preivous Guesses </h2>
+    <div id='PreviousGuess' align = 'center'> </div>
+</body>
+
+
+
+<script type="text/javascript" src="../src/colors.js"></script>
+<script type="text/javascript" src="../src/mastermind.js"></script>
+<script type="text/javascript" src="board.js"></script>
+
+</html>

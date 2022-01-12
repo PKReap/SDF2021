@@ -1,0 +1,244 @@
+[Reviewed 10/28/21 11:16 AM MDT]
+synopsis: you're done
+
+details: 
+
+yay
+
+------------------------------------------------------------------------------
+[Reviewed 10/27/21 06:38 AM MDT]
+synopsis: any other patterns?
+
+details: 
+
+Please see suggestions in text.
+
+------------------------------------------------------------------------------
+[Reviewed 10/26/21 06:34 AM EDT]
+synopsis: nice work
+
+details: 
+
+Coding completed.
+
+Let's focus on the questions in assign3.txt.
+
+------------------------------------------------------------------------------
+[Reviewed 10/25/21 12:23 PM EDT]
+synopsis: nice job
+
+details: 
+
+Nice job. It is important to let the user know what file they have to change to get the program running properly for different blocks.
+
+Let's now create a user defined converter and use that. Let's check if we are able to make this work without any changes to any existing code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/25/21 06:01 AM EDT]
+synopsis~: lets' follow OCP
+
+details: 
+
+Please see suggestions in code.
+
+> npm start
+
+> service@1.0.0 start
+> node driver.js
+
+To run program type
+ npm run start 'text here' block 1 block 2
+> npm run start 'hello' ??An Example Will Help to know what to type??
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/23/21 14:46 PM EDT]
+synopsis: let's refactor
+
+details: 
+
+Please see suggestions in code.
+
+Let's write a driver program that will take an input from the user and run through a series of blocks the user can choose to run. Please make sure to add a "run" task to execute the driver. Please do not include the driver run in the CI build, it is for manual run only.
+
+------------------------------------------------------------------------------
+[Reviewed 10/23/21 07:10 AM EDT]
+synopsis~: let's simplify
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/23/21 06:53 AM EDT]
+synopsis~:  feedback notes from previous review still in files
+
+details: 
+
+Feedback from previous review are still in the files. Please address, remove those feedback notes from the files. After that, please update the reviews request file for a quick review.
+
+------------------------------------------------------------------------------
+[Reviewed 10/22/21 20:50 PM EDT]
+synopsis: let's use functional style and honor OCP
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/22/21 12:20 PM EDT]
+synopsis~: let's follow OCP
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/22/21 08:52 AM EDT]
+synopsis~: nice work so far
+
+details: 
+
+Nice work so far. Let's proceed to the next step.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+------------------------------------------------------------------------------
+[Reviewed 10/21/21 18:18 PM EDT]
+synopsis: let's follow SRP
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/21/21 15:32 PM EDT]
+synopsis~: please check the describe in test files
+
+details: 
+
+Please check the describe in test files to make sure they tell what they really are teting.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/21/21 14:36 PM EDT]
+synopsis~: let's refactor
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/21/21 08:14 AM EDT]
+synopsis~: let's keep it DRY
+
+details: 
+
+**1, **2, and **3 are doing the same thing but for different letters. Let's remove that duplication.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+------------------------------------------------------------------------------
+[Reviewed 10/20/21 23:17 PM EDT]
+synopsis: nice work
+
+details: 
+
+Nice work, good separation of concerns, nice work on following SRP and
+the code follows OCP as well. Good job.
+
+Now that we have a handle on where we are going, at least for now, let us proceed to implement all the blocks (not the processor though).
+
+------------------------------------------------------------------------------
+[Reviewed 10/20/21 06:19 AM EDT]
+synopsis~: please address or ask for help
+
+details: 
+
+Please address feedback or ask for help. Let's not do more reviews until this is fixed. Please drop an email after fixing or ask for help if you can't fix. Let's discuss this over email and get things in place before starting the review again.
+
+------------------------------------------------------------------------------
+[Reviewed 10/18/21 09:05 AM MDT]
+synopsis: let's really focus and get this done
+
+details: 
+
+Let's really focus and get this one. We need many test but we want to remove duplication. Do it or ask for help.
+
+------------------------------------------------------------------------------
+[Reviewed 10/17/21 18:37 PM MDT]
+synopsis: let's remove the duplication and noise
+
+details: 
+
+Please see suggestions in code.
+
+------------------------------------------------------------------------------
+[Reviewed 10/17/21 06:34 AM MDT]
+synopsis~: let's reduce duplication and noise
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/17/21 06:02 AM MDT]
+synopsis~: let's think of SRP and OCP
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/17/21 05:44 AM MDT]
+synopsis~: one step at a time
+
+details: 
+
+One step at a time - please see review on 10/16.
+
+We started with uppercase converter, completed it. Next lowercase, not multiplier and lowercase.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/16/21 10:01 AM MDT]
+synopsis: nice work so far
+
+details: 
+
+Nice work so far.
+
+Let's move forward to the next converter.
+
+------------------------------------------------------------------------------
+[Reviewed 10/16/21 09:28 AM MDT]
+synopsis~: missing tests.txt
+
+details: 
+
+Missing tests.txt.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------
+[Reviewed 10/16/21 05:47 AM MDT]
+synopsis~: one step at a time
+
+details: 
+
+Please see suggestions in code.
+
+Let's do a quick review after these changes. Please modify the requestReview.txt file and check it in as soon as you are ready and I will do a review well before the next scheduled review cycle.
+
+------------------------------------------------------------------------------

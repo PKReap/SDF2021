@@ -1,0 +1,20 @@
+xcanary
+x guess with all colors match in position
+x guess with first four colors match in position
+x guess with last four colors match in position
+x guess with first three colors match in position and the last two match out of position
+x guess with all colors match out of position
+x guess with first and third color mismatch, second in position, and the others match out of position
+x guess with all non-matching color
+
+x guess with the first color in the selected colors repeated five times (six of the same color)
+x guess with the first color in the selected colors repeated from position two to six, with first position in the guess having the second color in selection
+x guess with the first color in the selected colors repeated from position two to six, with first position in the guess having no match
+x guess after a successful guess
+x guess after 19 incorrect guesses
+x guess after 20 incorrect guesses
+x guess after 21 incorrect guesses
+
+x generate random selected colors when mastermind is created
+x verify two instances of mastermind don't have the same selected colors
+

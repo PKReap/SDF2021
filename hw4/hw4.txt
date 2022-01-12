@@ -1,0 +1,65 @@
+HW4 Due 11:59PM December 3
+
+***There will be no reviews for this Homework***
+
+Feel free to give answers collectively, and also if you want to, you can call 
+out something specific to yourself different from your team member.
+
+1. What did you essentially learn in this course about design?
+                                
+Thien: 
+    I learned how to tell and define what is good software. Good software is minimal, it is robust, it is clear in its intention, and it is testable.
+    I learned about design principles and how important they are to keep in mind and follow while designing software. OCP was my favorite principle to learn
+    about. While doing the assignments helped keep the software robust and extensible. SRP was another principle I enjoyed learning and using. By keeping
+    it in my it kept the code much simpler as well as made reading it much easier. It allowed me to understand what self-documenting code is and 
+    how easy it is to go back read it later. Following the design principles, I learned allowed me to grow as a programmer. I feel that my code is much more 
+    clean and concise than it was before taking this class. I can now more confidently plan out software in a way that is much easier to follow and implement.
+    Another thing I enjoyed learning in this class was the design patterns. By learning about design patterns such as the builder, the proxy, adapters, etc..,
+    expanded my arsenal of tools to use in future software. I learned to judge the trade-offs of these design patterns as well and will be keeping them in 
+    mind when I eventually need to use them. I learned to care about the design of my software and not just simply have a working piece of software but care about
+    making software that can last, be robust, and be simple to understand. I want my code to be readable so easy to understand even non-programs can get hints 
+    of what is going on. One of my favorite lessons I enjoyed learning in this class was on working with dependencies. The idea of faking dependencies and making
+    my own software less dependent on it was very eye opening for me. Designing my own software around the utility of the dependency is much simpler then designing 
+    software around the dependency.
+Sevilay:
+    I learned about how important the implementation of simple things we learned in data structures are such as polymorhism and abstraction as well as inheritence. These 
+    aspects define how well our program is in coding perspective and in editablity perspective. I was amazed that there are formulas that we can use to keep track of the overall
+    quality of our program and as soon as I started using them I saw a huge improvement in my design and code. Prior to this class I was failing to obey the YAGNI principle because 
+    I was an anxious coder who wanted to see everything implemented or started first so I can have a feel of my responsibilities, but after coding by the YAGNI principle and starting
+    to design my code in a proper way I was less anxious about the tasks I have. Furthermore, I improved my code quality by writing more simple code for complex looking tasks,
+    going back to my code and editing my implementation and seeing it become way simpler gave me perspective on different ways of coding. OCP was definetly favorite principle of ours
+    to follow so I have to thank Thien for pushing me to code by the OCP rule. I have also learned my first design is definitely not going to be the end product, 
+    I saw how further improvements on a solid foundation can give me a code that is further editable and testable. Speaking of tests, I have made it a habbit to write my test
+    cases first before working on the actual functions or classes, that way I could plan my code way clearer and more testable. 
+    
+
+Replace this with your response.
+
+2. What are some of the general guidelines you would follow when designing?
+
+    The general guidelines we would follow when designing is to follow SOLID design principles. The open-closed principle is one we would like to always keep in mind 
+    programming. We want to write maintainable software in the future. Following OCP would allow us to keep our code extensible thus allowing us to more easily
+    add features. Adding more features to our software means that the software is still relevant and thus needs to be maintained. Writing maintainable software 
+    would make our future careers much easier.
+
+    A general guideline when designing software we would follow is to keep things as minimal as possible. If we keep our software minimal and simple, we can maintain
+    cohesion. Writing simple code allows for future developers that will one day have to read our code to be able to maintain the software, thus extending the life 
+    span of the code we write. As code is more often read than written, the code should be readable as well. We want to prioritize readability as it would make not only
+    our lives easier but as well as our co-workers that we will for sure be working alongside with.
+
+    Good design is simple, a general rule we will follow is to design simple software. Instead of trying to overcomplicate our programs with unnecessary noise, we will
+    try to design simple programs. For hw2 the first UML design we drew up had a bunch of bells and whistles for the mastermind game. After a couple of revisions and 
+    actively doing the assignment in assignment 1 we found that we could achieve the game in a much simpler fashion. We will keep the design simple and only add 
+    new modules when they are truly needed.
+
+    Another general guideline we would follow is to not be too attached to an initial design. Throughout this course, we always had an initial design at first but the
+    design often changed as we developed our code. By following the SOLID design principles we were able to quickly adapt to the changes since the code we had already 
+    written was very minimal and required little or no change at all.
+
+    Another guideline we would follow is to try to actively decouple our code when designing. DIP was a very useful lesson as it allowed us to understand why sometimes 
+    when we wrote code it often became hard to change. The decoupling will make it so that one module does not depend on another thus making it easier to extend and use.
+    Also by this decoupling also allows us to much more easily test our actual code. When setting up a test where the components are coupled we would need to keep track of 
+    both components thus leading to a resistance to change. By actively decoupling our design we would have an easier time making changes and adding new features thus
+    becoming more maintainable. 
+
+Total [10]: 10

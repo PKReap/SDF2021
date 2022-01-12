@@ -1,0 +1,23 @@
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+div {
+    font-size:60px
+}
+
+div li {
+    font-size:40px
+}

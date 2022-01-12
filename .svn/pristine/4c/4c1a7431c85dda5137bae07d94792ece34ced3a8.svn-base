@@ -1,0 +1,39 @@
+tests for Wheel
+    x canary
+    x WheelRules creates a Wheel with diameter of 4 and 8 spokes
+    x Wheel's diameter is changed if WheelRule aproves of the change
+    x Wheel's diameter is not changed if WheelRule disapproves of the change
+    x When Wheel's diameter is not changed the set propagates the reason WheelRule rejected the change
+
+tests for Hub
+    x The Wheel created by WheelRule has a hub diameter of 1
+    x Hub's diameter is changed if WheelRule approves of the change
+    x Hub's diameter is not changed if WheelRule disapproves of the change
+    x When Hub's diameter is not changed the set propagates the reason WheelRule rejected the change
+
+tests for Spokes
+    x The Wheel created by WheelRule has eight spokes
+    x Length of the spoke is correct upon creation
+    x Add a spoke to a wheel
+    x Remove a spoke from a wheel
+    x Can't remove a spoke if there are only eight
+    x Can't add a spoke if all spokes can't be reasonably spaced in a wheel
+    x When wheel diameter is changed the spokes length changes
+    x When hub diameter is changed the spokes length changes
+
+tests for WheelRule functions
+    x approveDiameter aproves diameter of a wheel
+    x approveDiameter throws error if diameter is becomes less than or equal to 0
+    x approveHubDiameter aproves diameter of a hub
+    x approveHubDiameter throws error if diameter is smaller than 1/4 wheel diameter
+    x approveSpokeRemoval aproves removal of a spoke
+    x approveSpokeRemoval throws error if number of spokes becomes less than 8
+    x approveSpokeAdd aproves adding of a spoke
+    x approveSpokeAdd throws an error if spacing is an issue
+    x approveDiameter aproves diameter of wheel when it is twice the size of the hub diameter
+
+tests for saving and loading a wheel
+    x saveWheel saves a  wheel
+    x saveWheel throws an error if no name is provided
+    x loadWheel loads a wheel
+    x loadWheel throws an error if wheel doesn't exist

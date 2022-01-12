@@ -1,0 +1,68 @@
+{
+  "name": "assign1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run",
+    "cover": "karma start --reporters coverage --single-run",
+    "lint": "eslint .",
+    "plato": "plato -r -d report src",
+    "start": "open GUI/board.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "globals": {
+      "expect": true,
+      "MasterMind": true,
+      "colors": true
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 9
+    },
+    "rules": {
+      "eqeqeq": "error",
+      "strict": "error",
+      "no-var": "error",
+      "no-unused-vars": [
+        "off"
+      ],
+      "prefer-const": "error",
+      "no-console": "off",
+      "indent": [
+        "error",
+        2
+      ],
+      "quotes": [
+        "error",
+        "single",
+        "avoid-escape"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "istanbul": "^0.4.5",
+    "karma": "^6.3.4",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^2.0.3",
+    "karma-mocha": "^2.0.1",
+    "mocha": "^9.1.1",
+    "plato": "^1.7.0"
+  }
+}
